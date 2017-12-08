@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "start-micro": "micro ./routes/micro-index.js",
-    "start-micro-immo": "micro ./routes/micro-immo.js"
+    "start-micro": "micro ./api/micro-index.js",
+    "start-micro-immo": "micro ./api/micro-immo.js"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
