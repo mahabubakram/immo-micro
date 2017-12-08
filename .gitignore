@@ -1,0 +1,6 @@
+.idea
+.metadata
+.project
+.tmp
+.log
+node_modules
