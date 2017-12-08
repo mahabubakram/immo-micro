@@ -20,7 +20,7 @@ var Datastore = require('nedb')
 
 module.exports = async function (request, response) {
 
-    const url = "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete";
+    const url = "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete/Bayern/Muenchen-Kreis?enteredFrom=result_list";
 
     immoRepo.listOfItems(url, immoConfig.getConfiguration()).then((data) => {
 
